@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Unidad2DanielGomez</string>
     <string name="open_drawer">open drawer\n</string>
     <string name="close_drawer">close drawer\n</string>
 </resources>
