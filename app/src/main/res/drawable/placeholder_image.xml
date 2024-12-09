@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#000000">
+
+    <!-- Base de la taza -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M4,14h12a4,4 0,0 0,4 -4V8a1,1 0,0 0,-1 -1h-1a1,1 0,0 0,-1 1v2a2,2 0,0 1,-2 2H4a2,2 0,0 1,-2 -2V8a1,1 0,0 1,1 -1h12a1,1 0,0 1,1 1v2a4,4 0,0 1,-4 4H4z" />
+
+    <!-- Asa de la taza -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M16,10a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+
+    <!-- Vapor -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M8,4c0,-1 0.5,-2 1.5,-2s1.5,1 1.5,2s-0.5,2 -1.5,2s-1.5,-1 -1.5,-2zM12,4c0,-1 0.5,-2 1.5,-2s1.5,1 1.5,2s-0.5,2 -1.5,2s-1.5,-1 -1.5,-2z" />
+
+    <!-- Base inferior de la taza -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M6,16h10a1,1 0,0 1,1 1v1a1,1 0,0 1,-1 1H6a1,1 0,0 1,-1 -1v-1a1,1 0,0 1,1 -1z" />
+</vector>

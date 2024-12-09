@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "329897116242",
+    "firebase_url": "https://unidad2-4b-default-rtdb.firebaseio.com",
+    "project_id": "unidad2-4b",
+    "storage_bucket": "unidad2-4b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329897116242:android:748468218fda595cee958b",
+        "android_client_info": {
+          "package_name": "jbar.cloudcoffee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdcj5DDo1IqJqlAcY8FPV2EpaOy1ZxNwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329897116242:android:741c784d7f0be2a9ee958b",
+        "android_client_info": {
+          "package_name": "utez.edu.mx.u2firebase4b_isaacjbar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdcj5DDo1IqJqlAcY8FPV2EpaOy1ZxNwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
