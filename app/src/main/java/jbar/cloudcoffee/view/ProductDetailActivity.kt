@@ -27,6 +27,20 @@ class ProductDetailActivity : AppCompatActivity() {
         val productImageUrl = intent.getStringExtra("product_image_url") ?: ""
 
         // Configurar los elementos de la UI
+        val productImageView: ImageView = findViewById(R.id.ivProductDetailImage)
+        val productNameTextView: TextView = findViewById(R.id.tvProductDetailName)
+        val productDescriptionTextView: TextView = findViewById(R.id.tvProductDetailDescription)
+        val productPriceTextView: TextView = findViewById(R.id.tvProductDetailPrice)
+        // Asignar los valores a los elementos de la UI
+        productNameTextView.text = productName
+        productDescriptionTextView.text = productDescription
+        productPriceTextView.text = String.format("$%.2f", productPrice)
+        Glide.with(this)
+            .load(productImageUrl)
+            .placeholder(R.drawable.placeholder_image)
+            .into(productImageView)
+
+        // Configurar los elementos de la UI
         val addToCartButton: Button = findViewById(R.id.btnAddToCart)
 
         // Configurar la lógica del botón "Agregar al carrito"
