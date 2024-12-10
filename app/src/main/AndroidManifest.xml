@@ -13,26 +13,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CloudCoffeeIsaac"
-        tools:targetApi="31" > <!-- Main Activity (Launcher Activity) -->
-    <activity
-        android:name=".view.MainActivity"
-        android:exported="true"
-        android:label="@string/app_name"
-        android:theme="@style/Theme.CloudCoffeeIsaac">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+        tools:targetApi="31">
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-    <!-- Other Activities -->
-    <activity
-        android:name=".view.CartActivity"
-        android:exported="true" />
-    <activity
-        android:name=".view.ProductDetailActivity"
-        android:exported="true" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Main Activity (Launcher Activity) -->
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CloudCoffeeIsaac">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-</application>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Other Activities -->
+        <activity
+            android:name=".view.CartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.ProductDetailActivity"
+            android:exported="true" />
+    </application>
 
 </manifest>
